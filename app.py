@@ -14,6 +14,7 @@ def buscar_usuario(nome_usuario):
     query = "SELECT * FROM usuarios WHERE nome = '" + nome_usuario + "'"
     cursor.execute(query)
     return cursor.fetchall()
+    #fsjsnvjsn
 
 if __name__ == "__main__":
     conectar_banco()
