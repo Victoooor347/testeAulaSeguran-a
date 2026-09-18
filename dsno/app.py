@@ -1,4 +1,5 @@
 import sqlite3
+# Teste de alteração
 
 def conectar_banco():
     # ERRO DE SEGURANÇA 1 (SAST): Credencial exposta no código.
